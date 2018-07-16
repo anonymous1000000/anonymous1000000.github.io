@@ -30,8 +30,8 @@ div{
 }
 #c{
     background-color: firebrick;
-    transition: height 2s;
-    transition: width 2s;
+    transition: height 2s, width 2s;
+    
 }
 #c:hover{
     height: 300px;
