@@ -10,18 +10,40 @@ body {
 
 h2 {
 	text-transform: uppercase;
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+figure {
+	display: inline-block;
+	width: 33%;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+figure figcaption {
+	text-align: center;
+    font-size: 15px;
+}
+
+figure img{
+	width: 100%;
+	border: 2px solid #444;
 }
 
 #gallery {
-	width: 1024px;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
+    font-size: 0px;
 }
-@media (min-width: 770px) and (max-width: 992px){
-#gallery {
-	width: 992px;
-	margin: 0 auto;
-	text-align: center;
+@media (max-width: 992px){
+figure {
+	
+	width: 50%;
+	margin: 0;
+	margin-bottom: 10px;
 }
 }
 @media (max-width: 769px){
@@ -32,36 +54,23 @@ h2 {
 }
 }
 @media (max-width: 479px){
-#gallery {
+    section{
+        width: 100%
+    }
+    #gallery {
 	width: 100%;
-	margin: 0 auto;
-	text-align: center;
+	margin: 0;
+	
     
 }
     figure {
-	display: inline-block;
 	width: 100%;
 	margin: 0;
 	margin-bottom: 10px;
 }
     figure img{
 	width: 100%;
-	border: 2px solid #444;
+	border: 0px;
 }
 }
 
-figure {
-	display: inline-block;
-	width: 338px;
-	margin: 0;
-	margin-bottom: 10px;
-}
-
-figure figcaption {
-	text-align: center;
-}
-
-figure img{
-	width: 100%;
-	border: 2px solid #444;
-}
