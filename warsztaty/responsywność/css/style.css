@@ -25,6 +25,12 @@ h2 {
 	text-align: center;
 }
 }
+@media (max-width:479px){
+#gallery {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
 figure {
 	display: inline-block;
 	width: 338px;
