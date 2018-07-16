@@ -19,14 +19,14 @@ h2 {
 }
 @media (min-width: 770px) and (max-width: 992px){
 #gallery {
-	width: 992px;
+	width: 50%;
 	margin: 0 auto;
 	text-align: center;
 }
 }
 @media (max-width: 769px){
 #gallery {
-	width: 500px;
+	width: 100%px;
 	margin: 0 auto;
 	text-align: center;
 }
