@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;    
+}
+a{
+    font-size: 150px;
+    color: firebrick;
+    transition: color 2s ease-in 1s font-size: 200px;
+}
+a:hover{
+    color: orchid;
+}
+div{
+    height: 150px;
+    width: 150px;
+
+}
+#a{
+    background-color: black;
+    transition: width 2s;
+}
+#a:hover{
+    width: 300px;
+}
+#b{
+    background-color: olivedrab;
+    transition: height 2s;
+}
+#b:hover{
+    height: 300px;
+}
+#c{
+    background-color: firebrick;
+    transition: height 2s;
+    transition: width 2s;
+}
+#c:hover{
+    height: 300px;
+    width: 300px;
+}
