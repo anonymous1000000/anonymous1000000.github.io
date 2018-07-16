@@ -17,35 +17,29 @@ h2 {
 	margin: 0 auto;
 	text-align: center;
 }
-@media (min-width: 993px){#gallery {
-	width: 33%;
-	margin: 0 auto;
-	text-align: center;
-}
-}
 @media (min-width: 770px) and (max-width: 992px){
 #gallery {
-	width: 50%;
+	width: 992px;
 	margin: 0 auto;
 	text-align: center;
 }
 }
 @media (max-width: 769px){
 #gallery {
-	width: 100%;
+	width: 500px;
 	margin: 0 auto;
 	text-align: center;
 }
 }
 @media (max-width: 479px){
 #gallery {
-	width: 0%;
-	margin: 0;
+	width: 100%;
+	margin: 0 auto;
 	text-align: center;
     
 }
     figure {
-	display:inline-block;
+	display;
 	width: 100%;
 	margin: 0;
 	margin-bottom: 10px;
