@@ -1,0 +1,210 @@
+#top {
+    width: auto;
+    font-family: lato;
+    color: #fff;
+}
+
+#mac {
+    width: 100%;
+}
+
+#menu {
+    background-color: rgba(4, 81, 175, 0.30);
+    font-family: lato;
+    margin-left: -25%;
+    width: 80%;
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    display:  inline-flex;
+    text-align: center;
+    padding: 5px;
+    overflow: hidden;
+    justify-content: space-around;
+    background-position: center;
+    position: fixed;
+
+}
+
+a {
+    color: #fff;
+}
+
+#ns {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#surname {
+    color: #1ac056;
+}
+
+#proffesion {
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#info {
+    background-color: azure;
+    font-family: lato;
+    color: black;
+}
+
+#me {
+    width: 20%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#omnie {
+    font-size: 25px;
+    margin-left: 55%;
+    margin-top: -25%;
+}
+
+#cont {
+    margin-left: 60%;
+    width: 20%;
+    padding-bottom: 70px;
+}
+
+#stitle {
+    position: absolute;
+    left: 45%;
+    font-size: 25px;
+    color: black;
+    margin-top: 0px;
+}
+
+#mnie {
+    color: #1ac056
+}
+
+
+
+#skills {
+    font-family: lato;
+}
+
+#skls {
+    color: #1ac056;
+}
+
+#scontent {
+    position: absolute;
+    margin-top: 40px;
+    display: inline;
+    text-align: center;
+}
+
+#html {
+    margin-left: 25%;
+    margin-top: 100px;
+    padding-bottom: 15px;
+}
+
+#css {
+    margin-left: 10%;
+    padding-bottom: 15px;
+}
+
+#js {
+    margin-left: 10%;
+    padding-bottom: 15px;
+}
+
+#jq {
+    margin-left: 10%;
+    padding-bottom: 15px;
+}
+
+#img {
+    padding-top: 100px;
+    display: inline;
+    justify-content: center;
+}
+
+#ptitle {
+    position: absolute;
+    left: 45%;
+    font-size: 25px;
+    color: black;
+    
+}
+
+#port {
+    color: #1ac056
+}
+#i{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    bottom: -190%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+#ii{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    bottom: -190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#iv {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    bottom: -190%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+#pcont{
+    display: none;
+}
+#pcont:hover{
+    display: block;
+}
+#social{
+    font-family: lato;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    bottom: -250%;
+    background-color: darkslategray;
+}
+#fb{
+    width: 5%;
+    height: auto;
+}
+#gp{
+    width: 5%;
+    height: auto;
+}
+#tw{
+    width: 5%;
+    height: auto;
+}
+
+#in{
+    width: 5%;
+    height: auto;
+}
+#csur{
+    color: #1ac056;
+}
+h4{
+    font-size: 15px;
+}
+#mail{
+    font-size: 15px;
+}
