@@ -144,43 +144,58 @@ a {
 #port {
     color: #1ac056
 }
-#i{
+.portchange{
+    display: inline-flex;
+}
+.portfolio{
+    display: inline-block;
+}
+#pitem1{
+    background-image: url("../img/portfolio1.jpg");
+    background-size: cover;
     width: 25%;
     height: auto;
     position: absolute;
-    bottom: -190%;
+    bottom: -150%;
     left: 20%;
     transform: translate(-50%, -50%);
 }
-#ii{
+#pitem2{
+    background-image: url("../img/portfolio2.jpg");
+    background-size: cover;
     width: 25%;
     height: auto;
     position: absolute;
-    bottom: -190%;
+    bottom: -150%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#iv {
+#pitem3{
+    background-image: url("../img/portfolio4.jpg");
+    background-size: cover;
     width: 25%;
     height: auto;
     position: absolute;
-    bottom: -190%;
+    bottom: -150%;
     left: 80%;
     transform: translate(-50%, -50%);
 }
-#pcont{
-    display: none;
+.onimg{
+    font-size: 0;
 }
-#pcont:hover{
-    display: block;
+.onimg:hover{
+    font-size: 15px;
 }
+
 #social{
+    width: 100%;
     font-family: lato;
     font-size: 30px;
     color: #fff;
     position: absolute;
-    bottom: -250%;
+    bottom: -260%;
     background-color: darkslategray;
+    margin-bottom: 0px;
 }
 #fb{
     width: 5%;
@@ -202,9 +217,24 @@ a {
 #csur{
     color: #1ac056;
 }
-h4{
+h4{ 
     font-size: 15px;
+    margin-left: 5%;
 }
 #mail{
     font-size: 15px;
+    position: absolute;
+    bottom:  30%;
+}
+#adress{
+    position: absolute;
+    bottom:  40%;
+}
+#smedia{
+  position: absolute;
+    bottom:  0%;  
+}
+#sname{
+   margin-left: 5%;
+
 }
