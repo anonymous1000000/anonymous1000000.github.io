@@ -1,0 +1,23 @@
+body{
+    background-color: firebrick;
+    color: white;
+    font-size: 100px;
+   
+}
+body>h1{
+    display: none;
+}
+body>h1>#x{
+    display: block;
+    animation-name: x;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes x{
+    0%{
+        display: block;
+    }
+    100%{
+        display: none;
+    }
+}
