@@ -133,59 +133,7 @@ a {
     justify-content: center;
 }
 
-#ptitle {
-    position: absolute;
-    left: 45%;
-    font-size: 25px;
-    color: black;
-    
-}
 
-#port {
-    color: #1ac056
-}
-.portchange{
-    display: inline-flex;
-}
-.portfolio{
-    display: inline-block;
-}
-#pitem1{
-    background-image: url("../img/portfolio1.jpg");
-    background-size: cover;
-    width: 25%;
-    height: auto;
-    position: absolute;
-    bottom: -150%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-}
-#pitem2{
-    background-image: url("../img/portfolio2.jpg");
-    background-size: cover;
-    width: 25%;
-    height: auto;
-    position: absolute;
-    bottom: -150%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-#pitem3{
-    background-image: url("../img/portfolio4.jpg");
-    background-size: cover;
-    width: 25%;
-    height: auto;
-    position: absolute;
-    bottom: -150%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-}
-.onimg{
-    font-size: 0;
-}
-.onimg:hover{
-    font-size: 15px;
-}
 
 #social{
     width: 100%;
@@ -237,4 +185,53 @@ h4{
 #sname{
    margin-left: 5%;
 
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(11, 5, 31, 0.57);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+#ptitle{
+    position: absolute;
+    flex-wrap: nowrap;
+    right:  0%;
+    font-family: lato;
+    font-size: 25px;
+}
+#portf{
+    color: #1ac056;
 }
