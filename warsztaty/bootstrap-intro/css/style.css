@@ -1,0 +1,172 @@
+a{
+    color: white;
+}
+.navbar{
+    background-color: transparent;
+}
+.navbar:hover{
+    background-color: cadetblue;
+}
+.navbar-collapse{
+        justify-content: flex-end;
+}
+body div#img{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url(../img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.fa{
+    width: inherit;
+    color: aqua;
+    font-size: 10vh;
+    background-color: silver;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+    padding: 3vh;
+    transition: transform 1s;
+}
+.fa:hover{
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+section#portfolio>.container>.row>div>img{
+    height: 30vh;
+    transition: transform 1s;
+    background-size: cover;
+}
+.plus {
+    display: none;
+    font-size: 50px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    /*text-decoration: none;*/
+}
+.parent {
+    width: 100%;
+    margin: 20px;
+    height: 300px;
+    border: 1px solid blue;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+#bg-one{
+    background-image: url('../img/portfolio/box_of_cookies.jpg');
+}
+#bg-two{
+    background-image: url('../img/portfolio/chaotic_paint.jpg');
+}
+#bg-three{
+    background-image: url('../img/portfolio/chestnut_on_bracket.jpg');
+}
+#bg-four{
+    background-image: url('../img/portfolio/child_with_blue_paint.jpg');
+}
+#bg-five{
+    background-image: url('../img/portfolio/house_with_blue_doors.jpg');
+}
+#bg-six{
+    background-image: url('../img/portfolio/typing_on_laptop.jpg');
+}
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover .plus, .parent:focus .plus {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
+
+section#contact{
+    background-image: url('../img/footer/world-map.jpg');
+    padding-bottom: 6vh;
+}
+.jumbotron {
+background:transparent;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+label{
+color: white;
+}
+footer{
+    margin-top: 0;
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.man{
+    width: 33%;
+}
+.team-link{
+    width: 150px;
+    height: 50px;
+    border-radius: 50%;
+}
+.team-link>i{
+    background-color: black;
+    color: white;
+    width: inherit;
+}
+footer>div>a{
+    color: gray;
+}

@@ -1,71 +1,51 @@
-@media (max-width:991px) {
-    #man2 {
-        display: none;
-    }
-    #man1 {
-        width: 100%;
-    }
-    #spans {
-        margin-top: 0px;
-        text-align: center;
-        font-family: sans-serif;
-    }
+body{
+    color: white;
+    max-width: 100wv;
 }
 
-@media (min-width:992px) {
-    #all {
-        position: relative;
-        display: inline-block;
-        width: 100%;
-    }
-    #man1 {
-        display: none;
-    }
-    #man2 {
-        position: relative;
-        width: 100%;
-        display: block;
-        z-index: 0;
-    }
-    .content {
-        color: white;
-        position: absolute;
-        z-index: 2;
-        top: 25%;
-        right: 23%;
-        font-size: 2vw;  
-    }
-    #lower{
-        margin-top: 20px;
-        float: right;
-    }
-    
-}
-@media (min-width:1171px) {
-    #all {
-        position: relative;
-        display: inline-block;
-        width: 100%;
-    }
-    #man2{
-        display: none;
-    }
-    #man1 {
-        position: relative;
-        width: 100%;
-        display: block;
-        z-index: 0;
-    }
-    .content {
-        color: white;
-        position: absolute;
-        z-index: 2;
+    body p {
+        font-family: sans-serif;
+        font-size: 1.5vw;
+        font-style: bold;
+        position: fixed;
         top: 50%;
-        left: 10%;
+        left: 5%;
+    }
+    body p span {
         font-size: 2vw;
     }
-   #lower{
-        margin-top: 30px;
+@media (min-width: 1171px){
+    
+body div {
+    max-width: 100wv;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../img/man-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0;
+}
+}
+@media (min-width: 992px) {
+body div {
+    max-width: 100wv;
+    height: 100vh;
+    position: relative;
+    top: 0;    
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/man-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+    body div p{
+        position: absolute;
+        left: 60vw;
+        top: 40vh;
     }
-   
 }
