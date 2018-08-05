@@ -1,0 +1,28 @@
+#portfolio {
+  background-color: #f7f7f7; }
+  #portfolio .content {
+    background-color: #fff; }
+    #portfolio .content .overflow {
+      height: 300px;
+      overflow: hidden; }
+      #portfolio .content .overflow .image {
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all 0.4s;
+        background-image: url("../img/portfolio/box_of_cookies.jpg"); }
+        #portfolio .content .overflow .image .mask {
+          height: 100%;
+          color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 32px;
+          background-color: rgba(14, 216, 214, 0.6);
+          opacity: 0;
+          transition: all 0.4s; }
+        #portfolio .content .overflow .image:hover {
+          transform: scale(1.5); }
+          #portfolio .content .overflow .image:hover .mask {
+            opacity: 1; }

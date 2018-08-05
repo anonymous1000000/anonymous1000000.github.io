@@ -1,0 +1,21 @@
+@import 'variables';
+#services{
+    .service-inner{
+        .fa{
+    background-color: $aqua;
+    border: 1px solid $aqua;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: $white;
+    font-size: 24px;
+    transition: all 0.4s;
+        &:hover {
+    background-color: $white;
+    color: $aqua;
+    transform: rotate(360deg);
+}
+        }
+    }
+}

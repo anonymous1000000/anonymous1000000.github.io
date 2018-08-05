@@ -1,0 +1,13 @@
+#contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/footer/world-map.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff; }
+  #contact .d-flex {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px; }
+  #contact textarea {
+    height: 250px; }
+  #contact .mb-10 {
+    margin-bottom: 10px; }

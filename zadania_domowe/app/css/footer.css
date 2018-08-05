@@ -1,0 +1,10 @@
+.line-height {
+  line-height: 70px; }
+  .line-height .social-icons {
+    height: 70px;
+    align-items: center; }
+  .line-height p, .line-height ul {
+    margin: 0;
+    padding: 0; }
+  .line-height ul li {
+    display: inline-block; }

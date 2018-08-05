@@ -1,0 +1,12 @@
+@import 'variables';
+#main-header {
+    background-image: linear-gradient($mask, $mask), url('../img/header/pictures_on_the_wall.jpg');
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

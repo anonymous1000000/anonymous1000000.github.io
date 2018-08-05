@@ -1,0 +1,17 @@
+@import 'variables';
+.line-height {
+    line-height: 70px;
+    .social-icons {
+    height: 70px;
+    align-items: center;
+}
+    p, ul{
+    margin: 0;
+    padding: 0;
+}
+    ul{
+        li{
+            display: inline-block;
+        }
+    }
+}

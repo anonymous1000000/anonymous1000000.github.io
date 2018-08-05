@@ -1,0 +1,36 @@
+@import 'variables';
+#portfolio {
+    background-color: $white2;
+    .content {
+        background-color: $white;
+        .overflow {
+            height: 300px;
+            overflow: hidden;
+            .image {
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: all 0.4s;
+                background-image: url('../img/portfolio/box_of_cookies.jpg');
+                .mask {
+                    height: 100%;
+                    color: $white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 32px;
+                    background-color: $aqua2;
+                    opacity: 0;
+                    transition: all 0.4s;
+                }
+                &:hover {
+                    transform: scale(1.5);
+                    .mask {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}

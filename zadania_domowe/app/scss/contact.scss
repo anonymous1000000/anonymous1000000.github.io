@@ -1,0 +1,18 @@
+@import 'variables';
+#contact {
+    background-image: linear-gradient($mask, $mask), url('../img/footer/world-map.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $white;
+    .d-flex {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+     textarea {
+    height: 250px;
+}
+    .mb-10 {
+    margin-bottom: 10px;
+}
+}

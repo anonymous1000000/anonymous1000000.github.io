@@ -1,0 +1,14 @@
+#services .service-inner .fa {
+  background-color: #0ed8d6;
+  border: 1px solid #0ed8d6;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 24px;
+  transition: all 0.4s; }
+  #services .service-inner .fa:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+    transform: rotate(360deg); }

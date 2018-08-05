@@ -1,0 +1,9 @@
+#main-nav {
+  background-color: transparent;
+  transition: all 0.4s; }
+  #main-nav.change-color {
+    background-color: #0ed8d6; }
+  #main-nav a {
+    color: #fff; }
+  #main-nav #navbarNav {
+    justify-content: flex-end; }

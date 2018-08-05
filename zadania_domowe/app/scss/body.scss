@@ -1,0 +1,33 @@
+@import 'variables';
+section {
+    padding: 60px 0;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+     a {
+    background-color: $grey;
+    color: $white;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: all 0.4s;
+    &:hover {
+    background-color: $aqua;
+    transform: scale(0.8);
+}
+    }
+ 
+}
+.btn-custom {
+    background-color: $aqua;
+    border: 1px solid $aqua;
+    color: $white;
+    transition: all 0.4s;
+    &:hover {
+    color: $aqua;
+    background-color: $white;
+}
+}

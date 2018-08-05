@@ -1,0 +1,14 @@
+@import 'variables';
+#main-nav {
+    background-color: transparent;
+    transition: all 0.4s;
+    .change-color {
+    background-color: $aqua;
+}
+    a {
+    color: $white;
+}
+    #navbarNav {
+    justify-content: flex-end;
+}
+}
